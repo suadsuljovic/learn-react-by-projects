@@ -1,6 +1,6 @@
 # How to build React.js projects step by step
 
-# Intro
+## Intro
 
 **If it's your first time reading this. Read this to understand the thought process and the reason for writing this guide.**
 
@@ -29,4 +29,45 @@ The second purpose is to identify the steps you are not familiar with and learn 
 
 The third one is to also identify ways for yourself to become a better programmer.
 
-## Building your React app
+## Pick your poison
+
+Depending on how difficult you want the project to be there are the following difficulty levels.
+
+1. **I want to get it over with!** <br>
+   For this, you will only choose stuff that you are familiar with and not even look at the stuff you have no idea about.
+
+2. **I like when life throws rocks at me!** <br>
+   Here you will always try to choose stuff that you are not familiar with. But you will also learn why that thing is better or worse than other stuff.
+
+3. **I like feeling the pain of Typescript!** <br>
+   For this one take all from the previous one but do it all in Typescript.
+
+## Creating the project
+
+For most beginners, there is the holy grail called Create React App, or CRA for short.
+
+The CRA is a good library and is recommended by React official documentation for a good reason.
+
+But it's not the only way and not the best way to make React projects either.
+
+The best way depends on your project and I recommend taking following tools into consideration:
+
+### [CRA](https://create-react-app.dev/)
+
+- Familiar to most people
+- It is quick and painless to start
+
+### [Vite](https://vitejs.dev/)
+
+- New and incredibly fast
+- You will never care about static pages
+
+### [Remix](https://remix.run/)
+
+- You really love react-router
+- Learn something new
+
+### [Next.js](https://nextjs.org/)
+
+- Want to have front-end and back-end in same app
+- Your project needs to have static pages
