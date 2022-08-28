@@ -122,8 +122,60 @@ The plugins I recommend for React projects:
 
 ## CSS
 
+There are a lot of ways to write CSS in React projects.
+
+There is no clear best way but you should be familiar with at least 2 or 3 ways of doing it. Since you never know what you will have to use on your next project.
+
+### CSS
+
+Supported out of the box.
+
+Plain old CSS you can't go wrong here.
+
+It does have problems with adding themes and CSS collisions.
+
+But if you have a good naming scheme it should do the job.
+
+### SCSS
+
+Supported out of the box.
+
+It's very similar to CSS but requires extra learning steps.
+
+It has the same problem with CSS collisions.
+
+A better way of writings CSS.
+
+### CSS Modules
+
+If you want to use the CSS files to write your code I would go for modules instead of plain CSS.
+
+They solve the problem with CSS collisions.
+
+You can have problems with using classes.
+
+### CSS-in-JS
+
+CSS in JS is used as a way of writing CSS inside JavaScript code.
+
+It requires a third-party library to work.
+
+It is the cleanest way of writing CSS in React.
+
+Popular are [styled-components](https://styled-components.com/) and [emotion](https://emotion.sh/docs/introduction).
+
+### CSS class libraries
+
+I don't recommend this choice for personal reasons.
+
+But they can be a good way of writing CSS in React projects.
+
+Can be a pain when you have a lot of classes on components.
+
+Popular are [bootstrap](https://react-bootstrap.github.io/getting-started/introduction) and [tailwind](https://tailwindcss.com/docs/guides/create-react-app).
+
 ## Third party libraries
 
-## Component Libraries
+### Component Libraries
 
-## Global state management libraries
+### Global state management libraries
