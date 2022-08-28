@@ -1,6 +1,6 @@
-# Learn how to program in React by building projects
+# Learn React by building projects
 
-## <span style="color:#e32d2d">Work in progress!</span>
+## Work in progress!
 
 This project is guide for kick starting you programing carrier by doing different projects.
 

@@ -1,4 +1,4 @@
-# How to build React.js projects step by step
+# How to build React.js projects
 
 ## Intro
 
@@ -23,11 +23,11 @@ For example: If are the only one working on this project you will not care about
 
 The things mentioned above are not the only things that you should think about. These are only some of the things that experienced programmers think about on daily bases when starting a new project.
 
-**So the main purpose of this document is to define important steps that you should think about when building react projects.**
+1. **The main purpose of this document is to define important steps that you should think about when building react projects.**
 
-**The second purpose is to identify the steps you are not familiar with and learn why are they important.**
+2. **Identify the steps you are not familiar with and learn why are they important.**
 
-**The third one is to also identify ways for yourself to become a better programmer.**
+3. **Identify ways for yourself to become a better programmer.**
 
 ## Pick your poison
 
@@ -81,3 +81,43 @@ But we definitely want some structure to our projects.
 So I recommend reading this [article](https://www.robinwieruch.de/react-folder-structure/) that describes the evolution of React project folder structure and choosing one step.
 
 ## Add formatting and linting tools
+
+Linters and code formatters are tools that keep your code clean and consistent with established coding conventions.
+
+A linter analyzes your code and alerts you to common programming and syntax errors.
+
+Code formatter will restructure the appearance of your code to match style guidelines, but it won’t analyze your code for errors.
+
+Linting and formatting tools are used in most teams, so getting to know how to use them can get you extra points in interviews.
+
+### Formatters
+
+The formatter are is mandatory to use in any project.
+
+I recommend [prettier](https://prettier.io/).
+
+You can either add it as a plugin in VSCode or set up a config file inside your project.
+
+[Config file setup](https://prettier.io/docs/en/install.html)
+
+### Linters
+
+You will not lose much if you don't add a linter to your project.
+
+But once you install them once and see the beauty of autocomplete options you get with them it is hard to go back.
+
+The linter I recommend is [eslint](https://eslint.org/).
+
+It is not easy setting it up for the first time and it can be confusing. But it will definitely bring you a lot of value to your project.
+
+You can look at this [article](https://medium.com/@RossWhitehouse/setting-up-eslint-in-react-c20015ef35f7) for guide how to setup eslint for react project.
+
+The plugins I recommend for React projects:
+
+- [React plugin](https://github.com/jsx-eslint/eslint-plugin-react)
+- [React Hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
+- [Eslint plugin Import](https://github.com/import-js/eslint-plugin-import)
+
+[Eslint plugin prettier](https://github.com/prettier/eslint-plugin-prettier) is mandatory if if you are using prettier.
+
+## CSS
