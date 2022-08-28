@@ -72,7 +72,7 @@ The best way depends on your project and I recommend taking following tools into
 - Want to have front-end and back-end in same app
 - Your project needs to have static pages
 
-## Choose project structure
+## Project structure
 
 There is no real main way of structuring your project and most people do it how they want.
 
@@ -80,7 +80,7 @@ But we definitely want some structure to our projects.
 
 So I recommend reading this [article](https://www.robinwieruch.de/react-folder-structure/) that describes the evolution of React project folder structure and choosing one step.
 
-## Add formatting and linting tools
+## Formatting and linting tools
 
 Linters and code formatters are tools that keep your code clean and consistent with established coding conventions.
 
@@ -121,3 +121,9 @@ The plugins I recommend for React projects:
 [Eslint plugin prettier](https://github.com/prettier/eslint-plugin-prettier) is mandatory if if you are using prettier.
 
 ## CSS
+
+## Third party libraries
+
+## Component Libraries
+
+## Global state management libraries
