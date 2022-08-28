@@ -23,11 +23,11 @@ For example: If are the only one working on this project you will not care about
 
 The things mentioned above are not the only things that you should think about. These are only some of the things that experienced programmers think about on daily bases when starting a new project.
 
-So the main purpose of this document is to define important steps that you should think about when building react projects.
+**So the main purpose of this document is to define important steps that you should think about when building react projects.**
 
-The second purpose is to identify the steps you are not familiar with and learn why are they important.
+**The second purpose is to identify the steps you are not familiar with and learn why are they important.**
 
-The third one is to also identify ways for yourself to become a better programmer.
+**The third one is to also identify ways for yourself to become a better programmer.**
 
 ## Pick your poison
 
@@ -71,3 +71,13 @@ The best way depends on your project and I recommend taking following tools into
 
 - Want to have front-end and back-end in same app
 - Your project needs to have static pages
+
+## Choose project structure
+
+There is no real main way of structuring your project and most people do it how they want.
+
+But we definitely want some structure to our projects.
+
+So I recommend reading this [article](https://www.robinwieruch.de/react-folder-structure/) that describes the evolution of React project folder structure and choosing one step.
+
+## Add formatting and linting tools
