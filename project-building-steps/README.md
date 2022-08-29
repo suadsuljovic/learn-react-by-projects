@@ -174,8 +174,53 @@ Popular are [bootstrap](https://react-bootstrap.github.io/getting-started/introd
 
 ## 👀 Third party libraries
 
-### Routing Libraries
+If you ever go to the NPM website and look at how many JS libraries exist you will be amazed. But most of those libraries are not useful or good to add to your project.
+
+Every library you add to your project represents an extra dependency.
+When you have a small number of dependencies it's easy to maintain your project.
+When you have a lot it's a nightmare and no one wants to upgrade the libraries on the project.
+
+So there are some rules I follow when I add libraries to my projects:
+
+- Only add libraries that you can't easily recreate and have good community support.
+- Don't add libraries to your project before you need them.
+- If you need one function from a library don't add the whole library. Copy that function from the source code and add it to your project.
+
+**There is a library called [isOdd](https://www.npmjs.com/package/is-odd) and it has 400k weekly downloads.**
+
+This just shows how many libraries people add to their projects. Just by writing `value % 2 === 1` you can do this by yourself there is no reason to add this library. But it seems a lot people don't know how to do this.
 
 ### Component Libraries
+
+Component libraries are a good way to reduce the development time of your project. They come with out-of-the-box components you need for your project.
+
+The pros:
+
+- You don't have to style your inputs, buttons, modals, etc... from scratch
+- Most of the components you need are there for a small project
+- Most have options to customize your theme
+
+The cons:
+
+- You are stuck with it forever
+- When it works it's amazing and when it doesn't you are stuck to solving it yourself.
+- If you find a bug it can take some time for it to be fixed.
+
+Some of the popular component libraries:
+
+- [Material UI](https://mui.com/)
+- [Ant design](https://ant.design/)
+- [Fluent](https://developer.microsoft.com/en-us/fluentui#/get-started)
+- [Mantine](https://mantine.dev/)
+- [Chakra UI](https://chakra-ui.com/)
+
+### Routing Libraries
+
+If you want your app to look like it's a multiple page application you will need to use a router.
+
+Some of the popular routers:
+
+- [React router]()
+- [Wouter](https://github.com/molefrog/wouter)
 
 ### Global state management libraries
