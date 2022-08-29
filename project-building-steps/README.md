@@ -138,8 +138,6 @@ But if you have a good naming scheme it should do the job.
 
 ### SCSS
 
-Supported out of the box.
-
 It's very similar to CSS but requires extra learning steps.
 
 It has the same problem with CSS collisions.
