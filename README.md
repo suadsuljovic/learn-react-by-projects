@@ -8,7 +8,7 @@ The guide to how to build a react project and what to take into consideration is
 
 If you are new here I recommend reading [intro](project-building-steps/README.md#-intro) section.
 
-How to use this guide can be found on [Pick your poison](project-building-steps/README.md#-pick-your-poison) section.
+How to use this guide can be found on [Pick your poison](project-building-steps/README.md#%EF%B8%8F-pick-your-poison) section.
 
 All the projects can be found in the [projects](projects) folder.
 
