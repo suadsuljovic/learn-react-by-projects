@@ -2,7 +2,7 @@
 
 ## Intro
 
-**If it's your first time reading this. Read this to understand the thought process and the reason for writing this guide.**
+**If it's your first time reading this, read this to understand the thought process and the reason for writing this guide.**
 
 Building a React app is more than using Create React App scripts to make your project and hack away coding.
 
