@@ -8,6 +8,6 @@ This guide contains the steps you should take to make any project and also multi
 
 You can contribute or fork the repository anytime.
 
-The guide for how should you use this repo to learn programing can be found in the [project building steps](project-building-steps/README.md).
+The guide that contains instructions for how you should use this repo to learn programing can be found in the [project building steps](project-building-steps/README.md).
 
 All the projects can be found in the [projects](projects) folder.
