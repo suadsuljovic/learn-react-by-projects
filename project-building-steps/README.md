@@ -1,6 +1,6 @@
 # How to build React.js projects
 
-## Intro
+## 🏁 Intro
 
 **If it's your first time reading this. Read this to understand the thought process and the reason for writing this guide.**
 
@@ -29,20 +29,20 @@ The things mentioned above are not the only things that you should think about. 
 
 3. **Identify ways for yourself to become a better programmer.**
 
-## Pick your poison
+## ☢️ Pick your poison
 
 Depending on how difficult you want the project to be there are the following difficulty levels.
 
-1. **I want to get it over with!** <br>
+1. 🥸 **I want to get it over with!** <br>
    For this, you will only choose stuff that you are familiar with and not even look at the stuff you have no idea about.
 
-2. **I like when life throws rocks at me!** <br>
+2. 😎 **I like when life throws rocks at me!** <br>
    Here you will always try to choose stuff that you are not familiar with. But you will also learn why that thing is better or worse than other stuff.
 
-3. **I like feeling the pain of Typescript!** <br>
+3. 🤓 **I like feeling the pain of Typescript!** <br>
    For this one take all from the previous one but do it all in Typescript.
 
-## Creating the project
+## 🚀 Creating the project
 
 For most beginners, there is the holy grail called Create React App, or CRA for short.
 
@@ -72,7 +72,7 @@ The best way depends on your project and I recommend taking following tools into
 - Want to have front-end and back-end in same app
 - Your project needs to have static pages
 
-## Project structure
+## 📄 Project structure
 
 There is no real main way of structuring your project and most people do it how they want.
 
@@ -80,7 +80,7 @@ But we definitely want some structure to our projects.
 
 So I recommend reading this [article](https://www.robinwieruch.de/react-folder-structure/) that describes the evolution of React project folder structure and choosing one step.
 
-## Formatting and linting tools
+## 🛠 Formatting and linting tools
 
 Linters and code formatters are tools that keep your code clean and consistent with established coding conventions.
 
@@ -120,7 +120,7 @@ The plugins I recommend for React projects:
 
 [Eslint plugin prettier](https://github.com/prettier/eslint-plugin-prettier) is mandatory if if you are using prettier.
 
-## CSS
+## 🖌 CSS
 
 There are a lot of ways to write CSS in React projects.
 
@@ -152,7 +152,7 @@ If you want to use the CSS files to write your code I would go for modules inste
 
 They solve the problem with CSS collisions.
 
-You can have problems with using classes.
+You can have problems with importing classes.
 
 ### CSS-in-JS
 
@@ -168,13 +168,13 @@ Popular are [styled-components](https://styled-components.com/) and [emotion](ht
 
 I don't recommend this choice for personal reasons.
 
-But they can be a good way of writing CSS in React projects.
-
 Can be a pain when you have a lot of classes on components.
 
 Popular are [bootstrap](https://react-bootstrap.github.io/getting-started/introduction) and [tailwind](https://tailwindcss.com/docs/guides/create-react-app).
 
-## Third party libraries
+## 👀 Third party libraries
+
+### Routing Libraries
 
 ### Component Libraries
 
