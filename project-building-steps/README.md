@@ -218,7 +218,36 @@ If you want your app to look like it's a multiple page application you will need
 
 Some of the popular routers:
 
-- [React router]()
+- [React router](https://reactrouter.com/en/main/getting-started/overview)
 - [Wouter](https://github.com/molefrog/wouter)
 
 ### Global state management libraries
+
+I would argue that React context API is enough for most React applications. But the reality is that we all have different opinions.
+
+So why I would consider adding other global state managers:
+
+- I have too many contexts and the app is slowly going to [context hell](https://marcopeg.com/context-provider-hell/)
+- My application is slow and has too many rerenders
+- The state is too complex for the context API
+- I want to try something new for myself
+
+Popular global state managers:
+
+- [Redux](https://redux.js.org/)
+- [Mobex](https://mobx.js.org/README.html)
+- [Zustand](https://github.com/pmndrs/zustand)
+- [Jotai](https://jotai.org/)
+
+### Fetching libraries
+
+You can't have an app without fetching some data from the internet.
+
+Some of popular libraries:
+
+- [Axios](https://github.com/axios/axios)
+- [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [React Query](https://react-query-v3.tanstack.com/overview)
+- [GraphQL](https://graphql.org/)
+
+## Coding
