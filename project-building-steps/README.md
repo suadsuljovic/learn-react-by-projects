@@ -1,4 +1,4 @@
-# How to build React.js projects
+# How to build React.js project
 
 ## 🏁 Intro
 

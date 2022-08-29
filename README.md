@@ -1,7 +1,5 @@
 # Learn React by building projects
 
-## Work in progress!
-
 This project is guide for kick starting your programing carrier by doing different projects.
 
 This guide contains the steps you should take to make any project and also multiple different projects that you can do.
