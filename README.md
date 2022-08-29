@@ -4,8 +4,12 @@ This project is guide for kick starting your programing carrier by doing differe
 
 This guide contains the steps you should take to make any project and also multiple different projects that you can do.
 
-You can contribute or fork the repository anytime.
+The guide to how to build a react project and what to take into consideration is on [project building steps](project-building-steps/README.md).
 
-The guide that contains instructions for how you should use this repo to learn programing can be found in the [project building steps](project-building-steps/README.md).
+If you are new here I recommend reading [intro](project-building-steps/README.md#🏁-intro) section.
+
+How to use this guide can be found on [Pick your poison](project-building-steps/README.md#☢️-pick-your-poison) section.
 
 All the projects can be found in the [projects](projects) folder.
+
+You can contribute or fork the repository anytime.
