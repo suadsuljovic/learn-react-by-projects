@@ -250,4 +250,12 @@ Some of popular libraries:
 - [React Query](https://react-query-v3.tanstack.com/overview)
 - [GraphQL](https://graphql.org/)
 
-## Coding
+## 👨‍💻 Coding
+
+Coding... This is a very big topic and I can't really cover it here.
+
+But here are some general advice:
+
+- So to get better at coding simplest advice is to code more.
+- To be a better developer/engineer get used to code with other people on the same project.
+- To be faster at coding get used to reading other people's code.
