@@ -46,9 +46,9 @@ There is a lot data here but you should try to display most of it.
 
 User should be able to search movies or series on this page.
 
-THe shows should be displayed in cards
+Shows should be displayed in cards
 
-THe user can use simple search with SearchMovie or SearchSeries API call.
+User should be allowed to use simple search with SearchMovie or SearchSeries API call.
 
 Also you should make advanced search that is opened on button click and user can search here by using AdvancedSearchAPI.
 
