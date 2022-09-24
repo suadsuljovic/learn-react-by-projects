@@ -28,13 +28,21 @@ The best project will be rewarded with some amazing rewards.
 ## Ideas kick-starting
 
 Character wiki
+
 Creator wiki
+
 Comics wiki
+
 Voting app for the most popular Character
+
 Voting app for the most popular Series
+
 Voting app for the most popular Comics
+
 Which character are you
+
 Love match between you and a character
+
 ...
 
 ## Your imagination is the only limit
