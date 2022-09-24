@@ -47,7 +47,7 @@ Love match between you and a character
 
 ## Your imagination is the only limit
 
-You can do many amazing things with this API and we can't see the result of your hard work
+You can do many amazing things with this API and we can't see the result of your hard work!
 
 ## Bonus
 
