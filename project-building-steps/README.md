@@ -1,261 +1,118 @@
-# How to build React.js project
+# Building a React.js Project: A Simple Guide
 
-## 🏁 Intro
+## Introduction
 
-**If it's your first time reading this, read this to understand the thought process and the reason for writing this guide.**
+Embarking on a React.js project is an exciting journey that goes beyond writing code. It's a holistic process that requires thoughtful consideration of various factors to ensure the success and maintainability of your application. This guide is here to simplify the complexity, providing you with a step-by-step roadmap to build robust React projects.
 
-Building a React app is more than using Create React App scripts to make your project and hack away coding.
+**Why Consider Every Step?**
 
-You will need to think about many other things:
+Before diving into code, pause and reflect on the bigger picture. What is your project's goal? How will collaboration flow among team members? What tools and structures align with your project's needs? These questions may seem secondary to coding, but they lay the foundation for a well-organized, scalable, and maintainable project.
 
-- What is my goal in doing this project
-- How many people are going to work on this project
-- How will I use versioning software
-- What project structure should I use
-- How will I write my CSS
-- Do I need to set some naming conventions on files and coding
-- Should I use Prettier or Eslint or both to manage my code formatting
-- Should I use third-party component library
+## 🚀 Choose Your Path
 
-Depending on how you answer the question above the way and stuff you need to do will differ.
+When it comes to project difficulty, there's no one-size-fits-all solution. The "Choose Your Path" section is about tailoring your approach based on your comfort level and desire for challenges.
 
-For example: If are the only one working on this project you will not care about any collaboration tools or formatting and naming guidelines. Even though this is fine on its own you should think about whether will this make you a better programmer. In the majority of cases, it will not.
+1. 🥸 **Keep it Simple:**
 
-The things mentioned above are not the only things that you should think about. These are only some of the things that experienced programmers think about on daily bases when starting a new project.
+   - Stick with what you know. Choose familiar tools and technologies for a smoother, quicker project setup.
 
-1. **The main purpose of this document is to define important steps that you should think about when building react projects.**
+2. 😎 **Embrace Challenges:**
 
-2. **Identify the steps you are not familiar with and learn why are they important.**
+   - Dive into the unknown. Opt for tools you're less familiar with, learn on the go, and understand why certain technologies are preferred over others.
 
-3. **Identify ways for yourself to become a better programmer.**
+3. 🤓 **Level up with TypeScript:**
+   - Embrace the power of TypeScript. Integrate it into your project to experience the challenges and benefits it brings, elevating your codebase with strong typing.
 
-## ☢️ Pick your poison
+Remember, the choice is yours, and each path comes with its unique advantages. The key is to strike a balance between familiarity and exploration, setting the tone for an engaging and rewarding development experience.
 
-Depending on how difficult you want the project to be there are the following difficulty levels.
+Continue reading to explore detailed steps on project setup, structure, formatting, and libraries. Let's build something amazing together! 🚀💻
 
-1. 🥸 **I want to get it over with!** <br>
-   For this, you will only choose stuff that you are familiar with and not even look at the stuff you have no idea about.
+## 🚀 Setting Up Your Project
 
-2. 😎 **I like when life throws rocks at me!** <br>
-   Here you will always try to choose stuff that you are not familiar with. But you will also learn why that thing is better or worse than other stuff.
+For beginners, Vite is a great choice, but explore other options:
 
-3. 🤓 **I like feeling the pain of Typescript!** <br>
-   For this one take all from the previous one but do it all in Typescript.
+- [Vite](https://vitejs.dev/): New, fast, ideal for static pages.
+- [Remix](https://remix.run/): Great for React Router enthusiasts.
+- [Next.js](https://nextjs.org/): Perfect for front-end/back-end in the same app with static pages.
 
-## 🚀 Creating the project
+## 📄 Project Structure
 
-For most beginners, there is the holy grail called Create React App, or CRA for short.
+While there's no one-size-fits-all structure, aim for organization. Check out this [article](https://www.robinwieruch.de/react-folder-structure/) for evolving React project structures.
 
-The CRA is a good library and is recommended by React official documentation for a good reason.
+## 🛠 Formatting and Linting Tools: Keeping Your Code in Check
 
-But it's not the only way and not the best way to make React projects either.
+Linters and code formatters play a crucial role in maintaining a clean and error-free codebase.
 
-The best way depends on your project and I recommend taking following tools into consideration:
+### 🧹 Linters
 
-### [CRA](https://create-react-app.dev/)
+A linter analyzes your code and alerts you to common programming and syntax errors. While you might not lose much by skipping a linter, the beauty of autocomplete options and early error detection makes it a valuable asset to your project. For React projects, [ESLint](https://eslint.org/) is a powerful choice.
 
-- Familiar to most people
-- It is quick and painless to start
-
-### [Vite](https://vitejs.dev/)
-
-- New and incredibly fast
-- You will never care about static pages
-
-### [Remix](https://remix.run/)
-
-- You really love react-router
-- Learn something new
-
-### [Next.js](https://nextjs.org/)
-
-- Want to have front-end and back-end in same app
-- Your project needs to have static pages
-
-## 📄 Project structure
-
-There is no real main way of structuring your project and most people do it how they want.
-
-But we definitely want some structure to our projects.
-
-So I recommend reading this [article](https://www.robinwieruch.de/react-folder-structure/) that describes the evolution of React project folder structure and choosing one step.
-
-## 🛠 Formatting and linting tools
-
-Linters and code formatters are tools that keep your code clean and consistent with established coding conventions.
-
-A linter analyzes your code and alerts you to common programming and syntax errors.
-
-Code formatter will restructure the appearance of your code to match style guidelines, but it won’t analyze your code for errors.
-
-Linting and formatting tools are used in most teams, so getting to know how to use them can get you extra points in interviews.
-
-### Formatters
-
-The formatter are is mandatory to use in any project.
-
-I recommend [prettier](https://prettier.io/).
-
-You can either add it as a plugin in VSCode or set up a config file inside your project.
-
-[Config file setup](https://prettier.io/docs/en/install.html)
-
-### Linters
-
-You will not lose much if you don't add a linter to your project.
-
-But once you install them once and see the beauty of autocomplete options you get with them it is hard to go back.
-
-The linter I recommend is [eslint](https://eslint.org/).
-
-It is not easy setting it up for the first time and it can be confusing. But it will definitely bring you a lot of value to your project.
-
-You can look at this [article](https://medium.com/@RossWhitehouse/setting-up-eslint-in-react-c20015ef35f7) for guide how to setup eslint for react project.
-
-The plugins I recommend for React projects:
+Check out [this guide](https://medium.com/@RossWhitehouse/setting-up-eslint-in-react-c20015ef35f7) for setting up ESLint in a React project. Consider using the following ESLint plugins for React projects:
 
 - [React plugin](https://github.com/jsx-eslint/eslint-plugin-react)
 - [React Hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
 - [Eslint plugin Import](https://github.com/import-js/eslint-plugin-import)
+- [Eslint plugin prettier](https://github.com/prettier/eslint-plugin-prettier) is mandatory if you are using Prettier.
 
-[Eslint plugin prettier](https://github.com/prettier/eslint-plugin-prettier) is mandatory if if you are using prettier.
+### 🎨 Formatters
 
-## 🖌 CSS
+Code formatters, like [Prettier](https://prettier.io/), are essential for maintaining consistent code style throughout your project. They automatically restructure the appearance of your code to match style guidelines.
 
-There are a lot of ways to write CSS in React projects.
+Consider adding Prettier as a plugin in VSCode or set up a config file inside your project using [this guide](https://prettier.io/docs/en/install.html).
 
-There is no clear best way but you should be familiar with at least 2 or 3 ways of doing it. Since you never know what you will have to use on your next project.
+Incorporating linting and formatting tools into your workflow not only keeps your codebase clean but also helps you write code that is consistent, readable, and easier to maintain.
 
-### CSS
+## 🖌 CSS in React
 
-Supported out of the box.
+Explore various ways to handle CSS:
 
-Plain old CSS you can't go wrong here.
+- **Plain CSS:** Supported out of the box, simple but watch for collisions.
+- **SCSS:** Similar to CSS but requires additional learning.
+- **CSS Modules:** Solves collision issues, watch for importing challenges.
+- **CSS-in-JS:** Cleanest but requires third-party libraries like [styled-components](https://styled-components.com/) or [emotion](https://emotion.sh/docs/introduction).
+- **Third-Party Libraries:** Use cautiously, popular ones include [bootstrap](https://react-bootstrap.github.io/getting-started/introduction) and [tailwind](https://tailwindcss.com/docs/guides/create-react-app).
 
-It does have problems with adding themes and CSS collisions.
+## 👀 Third Party Libraries: Enhancing Your Project
 
-But if you have a good naming scheme it should do the job.
-
-### SCSS
-
-It's very similar to CSS but requires extra learning steps.
-
-It has the same problem with CSS collisions.
-
-A better way of writings CSS.
-
-### CSS Modules
-
-If you want to use the CSS files to write your code I would go for modules instead of plain CSS.
-
-They solve the problem with CSS collisions.
-
-You can have problems with importing classes.
-
-### CSS-in-JS
-
-CSS in JS is used as a way of writing CSS inside JavaScript code.
-
-It requires a third-party library to work.
-
-It is the cleanest way of writing CSS in React.
-
-Popular are [styled-components](https://styled-components.com/) and [emotion](https://emotion.sh/docs/introduction).
-
-### CSS class libraries
-
-I don't recommend this choice for personal reasons.
-
-Can be a pain when you have a lot of classes on components.
-
-Popular are [bootstrap](https://react-bootstrap.github.io/getting-started/introduction) and [tailwind](https://tailwindcss.com/docs/guides/create-react-app).
-
-## 👀 Third party libraries
-
-If you ever go to the NPM website and look at how many JS libraries exist you will be amazed. But most of those libraries are not useful or good to add to your project.
-
-Every library you add to your project represents an extra dependency.
-When you have a small number of dependencies it's easy to maintain your project.
-When you have a lot it's a nightmare and no one wants to upgrade the libraries on the project.
-
-So there are some rules I follow when I add libraries to my projects:
-
-- Only add libraries that you can't easily recreate and have good community support.
-- Don't add libraries to your project before you need them.
-- If you need one function from a library don't add the whole library. Copy that function from the source code and add it to your project.
-
-**There is a library called [isOdd](https://www.npmjs.com/package/is-odd) and it has 400k weekly downloads.**
-
-This just shows how many libraries people add to their projects. Just by writing `value % 2 === 1` you can do this by yourself there is no reason to add this library. But it seems a lot people don't know how to do this.
+Be mindful of dependencies; only add what's necessary. Each type of library serves a specific purpose in enhancing your React project.
 
 ### Component Libraries
 
-Component libraries are a good way to reduce the development time of your project. They come with out-of-the-box components you need for your project.
+Component libraries provide pre-built UI components, saving development time and ensuring a consistent look and feel across your application. Some popular choices include:
 
-The pros:
-
-- You don't have to style your inputs, buttons, modals, etc... from scratch
-- Most of the components you need are there for a small project
-- Most have options to customize your theme
-
-The cons:
-
-- You are stuck with it forever
-- When it works it's amazing and when it doesn't you are stuck to solving it yourself.
-- If you find a bug it can take some time for it to be fixed.
-
-Some of the popular component libraries:
-
-- [Material UI](https://mui.com/)
-- [Ant design](https://ant.design/)
-- [Fluent](https://developer.microsoft.com/en-us/fluentui#/get-started)
-- [Mantine](https://mantine.dev/)
-- [Chakra UI](https://chakra-ui.com/)
+- [Material UI](https://mui.com/): Google's Material Design components.
+- [Ant design](https://ant.design/): A design system for enterprise-level products.
+- [Fluent](https://developer.microsoft.com/en-us/fluentui#/get-started): Microsoft's Fluent Design System components.
 
 ### Routing Libraries
 
-If you want your app to look like it's a multiple page application you will need to use a router.
+If your application requires multiple pages, routing libraries help manage navigation. Consider:
 
-Some of the popular routers:
+- [React router](https://reactrouter.com/en/main/getting-started/overview): A standard choice for declarative routing.
+- [Wouter](https://github.com/molefrog/wouter): A tiny router with a small footprint.
 
-- [React router](https://reactrouter.com/en/main/getting-started/overview)
-- [Wouter](https://github.com/molefrog/wouter)
+### Global State Management
 
-### Global state management libraries
+For managing state across your entire application, global state management libraries come in handy. Choose based on your project's complexity and requirements:
 
-I would argue that React context API is enough for most React applications. But the reality is that we all have different opinions.
+- [Redux](https://redux.js.org/): A predictable state container.
+- [Zustand](https://github.com/pmndrs/zustand): A small, fast state management library.
+- [Jotai](https://jotai.org/): A simple and efficient state management library.
 
-So why I would consider adding other global state managers:
+### Fetching Libraries
 
-- I have too many contexts and the app is slowly going to [context hell](https://marcopeg.com/context-provider-hell/)
-- My application is slow and has too many rerenders
-- The state is too complex for the context API
-- I want to try something new for myself
+Fetching libraries help you retrieve data from external sources. Depending on your project needs, consider:
 
-Popular global state managers:
-
-- [Redux](https://redux.js.org/)
-- [Mobex](https://mobx.js.org/README.html)
-- [Zustand](https://github.com/pmndrs/zustand)
-- [Jotai](https://jotai.org/)
-
-### Fetching libraries
-
-You can't have an app without fetching some data from the internet.
-
-Some of popular libraries:
-
-- [Axios](https://github.com/axios/axios)
-- [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-- [React Query](https://react-query-v3.tanstack.com/overview)
-- [GraphQL](https://graphql.org/)
+- [Axios](https://github.com/axios/axios): A popular HTTP client.
+- [React Query](https://react-query-v3.tanstack.com/overview): A library for managing, caching, and updating server state.
+- [GraphQL](https://graphql.org/): A query language for APIs.
 
 ## 👨‍💻 Coding
 
-Coding... This is a very big topic and I can't really cover it here.
+To improve your coding skills:
 
-But here are some general advice:
+- Code more consistently.
+- Collaborate with others on projects.
+- Read and understand others' code to enhance your speed and proficiency.
 
-- So to get better at coding simplest advice is to code more.
-- To be a better developer/engineer get used to code with other people on the same project.
-- To be faster at coding get used to reading other people's code.
+Keep coding, keep learning! 🚀💻
